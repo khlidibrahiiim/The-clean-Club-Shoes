@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Clean Club Tebet | Cuci Sepatu, Semir Sepatu &amp; Perawatan Tas</title>
+<meta name="description" content="The Clean Club Tebet: layanan cuci sepatu, semir sepatu, dan perawatan tas. Booking praktis melalui WhatsApp.">
+<meta property="og:title" content="The Clean Club Tebet">
+<meta property="og:description" content="Perawatan sepatu dan tas di Tebet. Booking melalui WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.jpg">
+<script>
+  // Tandai JS aktif; lewati opening jika sudah pernah tampil di sesi ini
+  document.documentElement.classList.add('js');
+  try { if (sessionStorage.getItem('ccIntro')) document.documentElement.classList.add('no-intro'); } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-inner">
+    <p class="intro-brand">THE CLEAN CLUB</p>
+    <span class="intro-line"></span>
+    <p class="intro-sub">SNEAKER &amp; BAG CARE — TEBET</p>
+  </div>
+</div>
+
+<a class="visually-hidden-focusable skip" href="#layanan">Lewati ke konten</a>
+
+<header class="site-nav" id="nav">
+  <nav class="navbar navbar-expand-lg" aria-label="Navigasi utama">
+    <div class="container">
+      <a class="navbar-brand" href="#beranda">THE CLEAN CLUB <small>TEBET</small></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Buka menu">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-lg-auto">
+          <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proses">Proses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lokasi">Lokasi</a></li>
+        </ul>
+        <button class="btn btn-cc" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Booking via WhatsApp <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="beranda">
+  <div class="container">
+    <div class="row align-items-end g-0">
+      <div class="col-lg-7 hero-text">
+        <p class="tag hr" style="--i:0">SNEAKER &amp; BAG CARE — TEBET</p>
+        <h1 class="hr" style="--i:1">Sepatu Bersih. Tampilan Lebih Percaya Diri.</h1>
+        <p class="lead hr" style="--i:2">Perawatan sepatu dan tas untuk menjaga kebersihan, tampilan, dan kenyamanan barang favoritmu.</p>
+        <div class="d-flex flex-wrap gap-3 hr" style="--i:3">
+          <button class="btn btn-cc" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Booking Sekarang <i class="bi bi-arrow-right"></i></button>
+          <a class="btn btn-line" href="#layanan"><i class="bi bi-grid ico-l" aria-hidden="true"></i>Lihat Layanan <i class="bi bi-arrow-down"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <figure class="hero-img">
+          <img src="images/homepage-image.jpg" alt="Sneakers putih yang bersih di atas permukaan gelap" width="900" height="1125" fetchpriority="high">
+          <span class="hero-rule" aria-hidden="true"></span>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAYANAN -->
+<section class="section" id="layanan">
+  <div class="container">
+    <div class="sec-head rv"><h2>Layanan</h2><p>Tiga layanan perawatan, disesuaikan dengan bahan dan kondisi barangmu.</p></div>
+    <div class="row g-4 g-lg-5">
+      <article class="col-lg-7 rv">
+        <figure class="svc-img"><img src="images/clean-shoes.jpg" alt="Sepatu sneakers sedang dibersihkan dengan sikat" width="1000" height="700" loading="lazy"></figure>
+        <div class="svc-head"><span class="svc-ico" aria-hidden="true"><i class="bi bi-droplet-half"></i></span><h3>Shoe Cleaning</h3></div>
+        <p>Layanan pembersihan sepatu untuk membantu mengangkat kotoran dan menjaga penampilannya.</p>
+        <a class="btn btn-line" data-wa="Halo The Clean Club Tebet, saya ingin bertanya mengenai layanan Shoe Cleaning." href="https://wa.me/" target="_blank" rel="noopener"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Tanya Layanan <i class="bi bi-arrow-right"></i></a>
+      </article>
+      <div class="col-lg-5 d-flex flex-column gap-5 pt-lg-5">
+        <article class="rv" style="--d:.1s">
+          <figure class="svc-img short"><img src="images/shoes-poleshing.jpg" alt="Sepatu kulit disemir hingga mengilap" width="800" height="560" loading="lazy"></figure>
+          <div class="svc-head"><span class="svc-ico" aria-hidden="true"><i class="bi bi-brush"></i></span><h3>Shoe Polishing</h3></div>
+          <p>Perawatan dan semir sepatu untuk membantu membuat tampilannya lebih rapi dan terawat.</p>
+          <a class="btn btn-line" data-wa="Halo The Clean Club Tebet, saya ingin bertanya mengenai layanan Shoe Polishing." href="https://wa.me/" target="_blank" rel="noopener"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Tanya Layanan <i class="bi bi-arrow-right"></i></a>
+        </article>
+        <article class="rv" style="--d:.2s">
+          <figure class="svc-img short"><img src="images/image-2.jpg" alt="Tas kulit dan kanvas yang dirawat" width="800" height="560" loading="lazy"></figure>
+          <div class="svc-head"><span class="svc-ico" aria-hidden="true"><i class="bi bi-handbag"></i></span><h3>Bag Cleaning</h3></div>
+          <p>Perawatan tas dengan pendekatan yang disesuaikan dengan bahan dan kondisinya.</p>
+          <a class="btn btn-line" data-wa="Halo The Clean Club Tebet, saya ingin bertanya mengenai layanan Bag Cleaning." href="https://wa.me/" target="_blank" rel="noopener"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Tanya Layanan <i class="bi bi-arrow-right"></i></a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="section dark" id="keunggulan">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-5 rv"><h2>Kenapa merawat sepatu dan tas?</h2><p class="muted">Barang yang dirawat tampil lebih rapi dan nyaman dipakai setiap hari.</p></div>
+      <div class="col-lg-7">
+        <ul class="list-unstyled adv">
+          <li class="rv"><i class="bi bi-stars"></i><span>Membantu menjaga penampilan barang favorit.</span></li>
+          <li class="rv" style="--d:.08s"><i class="bi bi-sliders"></i><span>Perawatan disesuaikan dengan kebutuhan barang.</span></li>
+          <li class="rv" style="--d:.16s"><i class="bi bi-whatsapp"></i><span>Pemesanan praktis melalui WhatsApp.</span></li>
+          <li class="rv" style="--d:.24s"><i class="bi bi-geo-alt"></i><span>Lokasi usaha mudah ditemukan melalui Google Maps.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROSES -->
+<section class="section" id="proses">
+  <div class="container">
+    <div class="sec-head rv"><h2>Proses Perawatan</h2></div>
+    <ol class="row g-4 list-unstyled steps">
+      <li class="col-md-6 col-lg-3 rv"><span class="num">01</span><h3>Konsultasi layanan</h3><p>Ceritakan kebutuhanmu lewat WhatsApp.</p></li>
+      <li class="col-md-6 col-lg-3 rv" style="--d:.1s"><span class="num">02</span><h3>Pemeriksaan kondisi</h3><p>Kondisi sepatu atau tas diperiksa lebih dulu.</p></li>
+      <li class="col-md-6 col-lg-3 rv" style="--d:.2s"><span class="num">03</span><h3>Proses perawatan</h3><p>Perawatan dikerjakan sesuai bahan dan kondisi.</p></li>
+      <li class="col-md-6 col-lg-3 rv" style="--d:.3s"><span class="num">04</span><h3>Konfirmasi &amp; pengambilan</h3><p>Kamu dikabari saat selesai dan siap diambil.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section class="section cream" id="galeri">
+  <div class="container">
+    <div class="sec-head rv"><h2>Galeri</h2><p>Dokumentasi layanan dan hasil perawatan The Clean Club Tebet.</p></div>
+    <div class="gallery">
+      <button class="g g1 rv" type="button" data-full="images/image-1.jpg" data-alt="Barang yang sudah selesai dirawat dan siap dibawa pulang"><img src="images/image-1.jpg" alt="Barang yang sudah selesai dirawat dan siap dibawa pulang" width="800" height="800" loading="lazy"><span>Siap dibawa pulang</span></button>
+      <button class="g g2 rv" type="button" data-full="images/image-2.jpg" data-alt="Proses pembersihan stroller" style="--d:.08s"><img src="images/image-2.jpg" alt="Proses pembersihan stroller" width="1080" height="1080" loading="lazy"><span>Proses pembersihan</span></button>
+      <button class="g g3 rv" type="button" data-full="images/image-3.jpg" data-alt="Perawatan stroller menggunakan kain dan cairan pembersih" style="--d:.16s"><img src="images/image-3.jpg" alt="Perawatan stroller menggunakan kain dan cairan pembersih" width="1080" height="1080" loading="lazy"><span>Perawatan stroller</span></button>
+      <button class="g g4 rv" type="button" data-full="images/image-4.jpg" data-alt="Perbandingan sol sepatu sebelum dan sesudah dibersihkan" style="--d:.24s"><img src="images/image-4.jpg" alt="Perbandingan sol sepatu sebelum dan sesudah dibersihkan" width="1080" height="1080" loading="lazy"><span>Before &amp; After</span></button>
+      <button class="g g5 rv" type="button" data-full="images/image-5.jpg" data-alt="Sepatu bersih dikemas setelah perawatan" style="--d:.32s"><img src="images/image-5.jpg" alt="Sepatu bersih dikemas setelah perawatan" width="1080" height="1440" loading="lazy"><span>Sepatu setelah dirawat</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- HARGA -->
+<section class="section" id="harga">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-5 rv"><h2>Harga Layanan</h2><p class="muted2">Harga bergantung pada jenis barang dan kondisinya. Tanyakan langsung agar informasinya akurat.</p></div>
+      <div class="col-lg-7">
+        <ul class="list-unstyled prices rv" id="priceList">
+          <li><a class="price-row" data-wa="Halo The Clean Club Tebet, saya ingin menanyakan harga Cuci Sepatu." href="https://wa.me/" target="_blank" rel="noopener"><span class="p-ico" aria-hidden="true"><i class="bi bi-droplet-half"></i></span><span class="p-name">Cuci sepatu</span><span class="p-cta" data-price="cuciSepatu">Tanyakan Harga</span><i class="bi bi-whatsapp p-wa" aria-hidden="true"></i></a></li>
+          <li><a class="price-row" data-wa="Halo The Clean Club Tebet, saya ingin menanyakan harga Semir Sepatu." href="https://wa.me/" target="_blank" rel="noopener"><span class="p-ico" aria-hidden="true"><i class="bi bi-brush"></i></span><span class="p-name">Semir sepatu</span><span class="p-cta" data-price="semirSepatu">Tanyakan Harga</span><i class="bi bi-whatsapp p-wa" aria-hidden="true"></i></a></li>
+          <li><a class="price-row" data-wa="Halo The Clean Club Tebet, saya ingin menanyakan harga Cuci Tas." href="https://wa.me/" target="_blank" rel="noopener"><span class="p-ico" aria-hidden="true"><i class="bi bi-handbag"></i></span><span class="p-name">Cuci tas</span><span class="p-cta" data-price="cuciTas">Tanyakan Harga</span><i class="bi bi-whatsapp p-wa" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ULASAN -->
+<section class="section dark" id="ulasan" aria-labelledby="ulasanTitle">
+  <div class="container">
+    <div class="sec-head rv">
+      <h2 id="ulasanTitle">Kata Pelanggan</h2>
+      <a class="btn btn-light-line" href="https://maps.app.goo.gl/MbEteXRdMQuGkLqU8?g_st=ac" target="_blank" rel="noopener"><i class="bi bi-google ico-l" aria-hidden="true"></i>Lihat Ulasan di Google Maps</a>
+    </div>
+    <div class="reviews" id="reviews">
+      <p class="review-empty">Ulasan pelanggan dapat dibaca langsung di Google Maps.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LOKASI -->
+<section class="section cream" id="lokasi">
+  <div class="container">
+    <div class="row g-4 align-items-end">
+      <div class="col-lg-7 rv"><h2>Temukan Kami di Tebet</h2><p class="muted2">Kunjungi The Clean Club Tebet untuk kebutuhan perawatan sepatu dan tasmu.</p></div>
+      <div class="col-lg-5 d-flex flex-wrap gap-3 rv" style="--d:.1s">
+        <a class="btn btn-cc" href="https://maps.app.goo.gl/MbEteXRdMQuGkLqU8?g_st=ac" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill ico-l" aria-hidden="true"></i>Buka Google Maps <i class="bi bi-arrow-right"></i></a>
+        <a class="btn btn-line" data-wa="Halo The Clean Club Tebet, saya ingin bertanya mengenai layanan perawatan." href="https://wa.me/" target="_blank" rel="noopener"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Hubungi via WhatsApp <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-4 rv"><h2>Pertanyaan Umum</h2></div>
+      <div class="col-lg-8">
+        <div class="accordion cc-acc rv" id="faqAcc">
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1" aria-expanded="true" aria-controls="f1">Layanan apa saja yang tersedia?</button></h3><div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc"><div class="accordion-body">Cuci sepatu, semir sepatu, dan cuci serta perawatan tas.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2" aria-expanded="false" aria-controls="f2">Bagaimana cara memesan layanan?</button></h3><div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Klik tombol booking, isi formulir singkat, lalu pesan akan terbuka di WhatsApp untuk kamu kirim.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3" aria-expanded="false" aria-controls="f3">Apakah semua jenis sepatu bisa dicuci?</button></h3><div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Tidak semua bahan memakai metode yang sama. Kirim catatan kondisi sepatumu lewat WhatsApp untuk dicek lebih dulu.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4" aria-expanded="false" aria-controls="f4">Apakah tas juga bisa dirawat?</button></h3><div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Ya, perawatan tas tersedia. Pendekatannya disesuaikan dengan bahan dan kondisi tas.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5" aria-expanded="false" aria-controls="f5">Bagaimana cara mengetahui harga layanan?</button></h3><div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Klik "Tanyakan Harga" untuk bertanya langsung lewat WhatsApp.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6" aria-expanded="false" aria-controls="f6">Bagaimana cara menemukan lokasi usaha?</button></h3><div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Gunakan tombol "Buka Google Maps" di bagian Lokasi.</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5"><p class="f-brand">The Clean Club Tebet</p><p class="muted">Cuci sepatu, semir sepatu, dan perawatan tas.</p></div>
+      <div class="col-6 col-lg-3"><ul class="list-unstyled">
+        <li><a href="#beranda">Beranda</a></li><li><a href="#layanan">Layanan</a></li><li><a href="#proses">Proses</a></li><li><a href="#galeri">Galeri</a></li><li><a href="#lokasi">Lokasi</a></li></ul></div>
+      <div class="col-6 col-lg-4"><ul class="list-unstyled">
+        <li><a href="https://maps.app.goo.gl/MbEteXRdMQuGkLqU8?g_st=ac" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill me-2" aria-hidden="true"></i>Google Maps</a></li>
+        <li><a data-wa="Halo The Clean Club Tebet, saya ingin bertanya mengenai layanan perawatan." href="https://wa.me/" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2" aria-hidden="true"></i>WhatsApp</a></li></ul></div>
+    </div>
+    <p class="copy">&copy; <span id="year">2026</span> The Clean Club Tebet. Hak cipta dilindungi.</p>
+  </div>
+</footer>
+
+<a class="wa-float d-lg-none" data-wa="Halo The Clean Club Tebet, saya ingin bertanya mengenai layanan perawatan." href="https://wa.me/" target="_blank" rel="noopener" aria-label="Chat WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+<button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas"><i class="bi bi-arrow-up"></i></button>
+
+<!-- Modal booking -->
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form class="modal-content" id="bookingForm" novalidate>
+      <div class="modal-header"><h2 class="modal-title" id="bookingTitle">Booking via WhatsApp</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button></div>
+      <div class="modal-body">
+        <div class="mb-3"><label class="form-label" for="bName">Nama</label><input class="form-control" id="bName" required autocomplete="name"><div class="invalid-feedback">Isi nama kamu.</div></div>
+        <div class="mb-3"><label class="form-label" for="bService">Jenis layanan</label><select class="form-select" id="bService" required><option value="">Pilih layanan</option><option>Shoe Cleaning</option><option>Shoe Polishing</option><option>Bag Cleaning</option></select><div class="invalid-feedback">Pilih jenis layanan.</div></div>
+        <div class="mb-3"><label class="form-label" for="bItem">Jenis barang</label><select class="form-select" id="bItem" required><option value="">Pilih barang</option><option>Sepatu</option><option>Tas</option></select><div class="invalid-feedback">Pilih jenis barang.</div></div>
+        <div class="mb-1"><label class="form-label" for="bNote">Catatan kondisi barang</label><textarea class="form-control" id="bNote" rows="3" required placeholder="Contoh: sneakers kanvas putih, ada noda di sol"></textarea><div class="invalid-feedback">Tulis kondisi barang singkat saja.</div></div>
+        <p class="small text-danger mt-2 mb-0" id="formNote" role="alert"></p>
+      </div>
+      <div class="modal-footer"><button class="btn btn-cc" type="submit"><i class="bi bi-whatsapp ico-l" aria-hidden="true"></i>Kirim ke WhatsApp <i class="bi bi-arrow-right"></i></button></div>
+    </form>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="modal fade" id="lightbox" tabindex="-1" aria-label="Pratinjau foto" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content bg-transparent border-0">
+    <button type="button" class="btn-close btn-close-white ms-auto mb-2" data-bs-dismiss="modal" aria-label="Tutup"></button>
+    <img id="lbImg" class="img-fluid" src="" alt="">
+  </div></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
